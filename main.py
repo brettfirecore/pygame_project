@@ -8,7 +8,6 @@ from shot import Shot
 
 
 def main():
-
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     clock = pygame.time.Clock()
@@ -44,7 +43,7 @@ def main():
             for shot in shots:
                 if asteroid.collides_with(shot):
                     shot.kill()
-                    asteroid.split() # 21/03/25 call the split to break the asteroid instead of just killing them
+                    asteroid.split()
 
         screen.fill("black")
 
