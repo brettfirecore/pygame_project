@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/firecore56/pygame_project/main.py", line 2, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
